@@ -5,8 +5,8 @@
 #include <DS1307.h>
 
 //Pin setup
-const int LED_CATD_PIN[13] = {A3,4,7,8,9,10,11,12,13,A0,A1,A2};
-const int LED_ANOD_PIN[4] = {6,5,3};
+const int LED_CATD_PIN[13] = {12,A1,13,11,10,7,6,9,5,4,3,A3};
+const int LED_ANOD_PIN[4] = {A2,A0,8};
 const int BTN_PIN = A7;
 
 //Pushbutton
