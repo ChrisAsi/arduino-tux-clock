@@ -7,8 +7,8 @@
 
 //Pin setup
 const int LED_CATD_PIN[13] = {12,A1,13,11,10,7,6,9,5,4,3,A3};
-const int LED_ANOD_PIN[4] = {A2,A0,8};
-const int BTN_PIN = A7;
+const int LED_ANOD_PIN[4] = {A2,A0,8}; //RED 470ohm, GREEN 4.7kohm, BLUE 1.8kohm
+const int BTN_PIN = A7; //2.2kohm pullup
 
 //Pushbutton
 bool btn_down_short = false;
